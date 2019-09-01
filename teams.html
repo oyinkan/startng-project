@@ -103,7 +103,31 @@
             .mt-50 {
                 margin-top: 50px;
             }
-
+          
+          /*style for the heaer*/
+          
+          .header-left{
+            float: left;
+          } 
+          .header-right {
+            text-align: center;
+            margin-top: 10px;
+            margin-right: 12px;
+            float: right;
+          }
+          .header-right a{
+            text-decoration: none;
+            color: purple;
+            margin-right: 15px;
+          
+          }
+          #header-container{
+            background-color:  white;
+          }
+          ul li{
+            list-style-type: none;
+            display: inline-block;
+          }
             /* for smaller screens */
             @media only screen and (max-width: 700px) {
                 .flex-container {
@@ -126,6 +150,20 @@
         </style>
     </head>
     <body>
+      <header>
+        <div id="header-container">
+        <div class ="header-left">
+          <img class="header-logo" src="https://res.cloudinary.com/iinintinteintegintegrintegral/image/upload/v1567317332/My%20web/imageedit_1_8560111850_cpue5o.png" alt ="Ancora-logo" width="60px" height="60px">
+        </div>
+        <div class ="header-right">
+                                  <ul>
+                                  <li><a href="#">About Us</a></li>
+                                                 <li><a href="#">Donate</a></li>
+                                                                <li><a href="#">Partners</a></li>
+<li><a href="#">Contact Us</a></li>                                                            
+                                                 </ul>                          </div>
+               </div>
+      </header>
         <main>
             <div class="teams-wrapper">
                 <div>
@@ -283,4 +321,4 @@
             </div>
         </main>
     </body>
-</html>
+</html
